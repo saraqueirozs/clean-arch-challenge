@@ -1,6 +1,6 @@
 # Clean Architecture Challenge
 
-Este projeto implementa um sistema de pedidos utilizando Clean Architecture, com suporte para REST, gRPC e GraphQL.
+Este projeto implementa um sistema utilizando Clean Architecture, com suporte para REST, gRPC e GraphQL.
 
 ## Pré-requisitos
 

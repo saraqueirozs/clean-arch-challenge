@@ -1,0 +1,29 @@
+POST http://localhost:8000/order HTTP/1.1
+Host: localhost:8000
+Content-Type: application/json
+
+{
+    "id":"order A",
+    "price": 100.5,
+    "tax": 0.5
+}
+
+POST http://localhost:8000/order HTTP/1.1
+Host: localhost:8000
+Content-Type: application/json
+
+{
+    "id":"order B",
+    "price": 7.5,
+    "tax": 2.0
+}
+
+POST http://localhost:8000/order HTTP/1.1
+Host: localhost:8000
+Content-Type: application/json
+
+{
+    "id":"order C",
+    "price": 120.0,
+    "tax": 4.0
+}
